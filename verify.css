@@ -80,3 +80,7 @@
 .text-right{
     float: right;
 }
+
+.navbar-toggler-icon{
+    color:#ea4c89;
+}

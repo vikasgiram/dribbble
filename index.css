@@ -9,13 +9,16 @@
     width: 100%;
   }
 
-
+  .login-btn a{
+    text-decoration: none;
+    color: purple;
+  }
   .tab .design .top{
-    height: 20vh;
+    height: 25vh;
     background-color: #efbaca;
   }
   .tab .design .bottom{
-    height: 20vh;
+    height: 30vh;
     background-color: #dcd8d5;
   }
 
