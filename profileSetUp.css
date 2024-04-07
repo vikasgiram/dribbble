@@ -1,0 +1,46 @@
+img {
+    max-width: 100%; max-height: 100%;
+}
+input { 
+    display: none; 
+}
+
+.row .imgPrev img{
+   height: 10rem;
+   width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.row .imgPic .btn-light{
+    border: 1px solid gray!important;
+}
+.row .loc{
+    width: 55%;
+}
+
+.row .logo h3{
+    margin-left: 3rem;
+    color: #ea4c89;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+h1,h5,p{
+    font-weight: 700;
+}
+p{
+    color: gray;
+}
+.return a{
+    text-decoration: none;
+    color: gray;
+}
+.btn-danger{
+    width: 10rem;
+}
+
+
+
+
+

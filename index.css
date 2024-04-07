@@ -1,0 +1,39 @@
+
+  .tab{
+    width: 100%;
+    height: 100vh;
+  }
+
+
+  .tab .row .design img{
+    width: 100%;
+  }
+
+
+  .tab .design .top{
+    height: 20vh;
+    background-color: #efbaca;
+  }
+  .tab .design .bottom{
+    height: 20vh;
+    background-color: #dcd8d5;
+  }
+
+/* form content  */
+
+
+  .sign-up{
+    margin: auto;
+  }
+
+  .sign-up h2{
+    font-weight: bolder;
+  }
+  .cont .login-btn{
+    text-align: right;
+  }
+  .cont .warning{
+    font-size: small;
+  }
+
+  

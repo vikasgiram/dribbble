@@ -1,0 +1,49 @@
+*{
+    /* margin: 2rem; */
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+} 
+.options .form-check{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.form-check img{
+    width: 80%;
+    height: 80%;
+}
+.sub-text{
+    font-size: small;
+    color: gray;
+}
+h3,p{
+    font-weight: 700;
+}
+
+h4{
+    margin-left: 3rem;
+    color: #ea4c89;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+form{
+    text-align: center;
+}
+.btn-danger{
+    width: 10rem;
+}

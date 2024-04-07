@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose options</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="radioOptions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="logo mt-3">
+            <h4>dribbble</h4>
+            <button class="btn btn-light mx-3"><</button>
+        </div>
+
+        <form action="verify.html">
+            <h3 class="mb-3">What brings you to Dribbble?</h3>
+            <p class="sub-text">Select the options that best describe you. Don't worry, you can explore other options later.</p>
+
+            <div class="options mt-5 mb-5">
+                <div class="form-check">
+                    <label class="form-check-label" for="option1">
+                        <img class="card-img-top" src="./assets/option1.jpg" alt="option1">
+                        <p>I'm a designer looking to share my work</p>
+                    </label>
+                    <input class="form-check-input" type="radio" name="radio" id="option1">
+
+                </div>
+    
+                <div class="form-check">
+                    <label class="form-check-label" for="option2">
+                        <img src="./assets/option2.jpg" alt="option2">
+                        <p>I'm looking to hire a designer</p>
+                    </label>
+                    <input class="form-check-input" type="radio" name="radio" id="option2">
+                </div>
+    
+                <div class="form-check">
+                    <label class="form-check-label" for="option3">
+                        <img src="./assets/option3.jpg" alt="option3">
+                        <p>I'm looking for design inspiration</p>
+                        </label>
+                    <input class="form-check-input" type="radio" name="radio" id="option3">
+                </div>
+            </div>
+
+            <p>Anything else? You can select multiple</p>
+        
+            <button class="btn btn-danger mt-3 mb-3">Finish</button>
+            <p class="sub-text">or Press <a href="profileSetUp.html">RETURN</a></p>
+        </form>    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

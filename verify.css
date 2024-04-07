@@ -1,0 +1,82 @@
+.navbar-brand{
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-weight: 700;
+}
+.container-fluid img{
+    height: 2%;
+    width: 2%;
+    border-radius: 50%;
+}
+
+.navbar li a{
+    color: gray;
+    font-weight: 600;
+}
+
+/* main body  */
+
+.main-body{
+    text-align: center;
+    height: 100vh;
+}
+
+.main-body .gray{
+    color: gray;
+    font-weight: 600;
+}
+
+.main-body h2{
+    font-weight: 700;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.main-body a{
+    text-decoration: none;
+    color: #ea4c89;
+}
+
+/* footer  */
+
+.footer{
+    background-color: #E5E4E2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.footer .main .logo{
+    color: #ea4c89;
+    font-family: "Dancing Script", cursive;
+    font-size: larger;
+
+}
+
+.footer .main{
+    flex: 80rem;
+}
+
+.footer .row p{
+    font-size: small;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+
+.footer .icons i{
+    margin: 0.5rem;
+}
+
+.rights{
+    background-color: #E5E4E2;
+    height: 3rem;
+}
+
+.rights p{
+    display: inline;
+}
+
+.text-right{
+    float: right;
+}
