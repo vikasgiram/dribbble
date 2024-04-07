@@ -39,4 +39,6 @@
     font-size: small;
   }
 
-  
+  a {
+    text-decoration: none;
+  }
